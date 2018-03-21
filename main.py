@@ -177,8 +177,8 @@ class LabelTool():
 
         # load labels
         self.clearBBox()
-        head, tail = os.path.split(imagepath)
-        self.imagename, ext = os.path.splitext(tail)
+        f_name = os.path.basename(imagepath)
+        self.imagename, ext = os.path.splitext(f_name)
         labelname = self.imagename + '.txt'
         self.labelfilename = os.path.join(self.outDir, labelname)
         bbox_cnt = 0
