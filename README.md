@@ -51,3 +51,5 @@ BBox tool's picture ext is "&#42;.JPEG". But some jpeg file's ext is "&#42;.jpg"
 1. Resize class's first argument is width, second argument is height.
 2. Default resize size is 256 * 256. If you need it, you need to change
 3. When you run this python file need 2 argument. 1st argument is path to image file. 2nd argument is path to output folder.
+
+Convert and resize output sample exists to Images/output .
