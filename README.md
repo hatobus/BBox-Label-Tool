@@ -45,7 +45,7 @@ Usage
 
 Usage resize_convert
 -------
-BBox tool's picture ext is "&#42.JPEG". But some jpeg file's ext is "&#42.jpg" "&#42.jpeg" "&#42.jpe". And, deeplearning framework has image sizes limit.
+BBox tool's picture ext is "&#42;.JPEG". But some jpeg file's ext is "&#42;.jpg" "&#42;.jpeg" "&#42;.jpe". And, deeplearning framework has image sizes limit.
 
 0. To check framework's image sizes limit.
 1. Resize class's first argument is width, second argument is height.
