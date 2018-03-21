@@ -20,6 +20,8 @@ LabelTool
 |--Labels/   *# direcotry for the labeling results*  
 |  
 |--Examples/  *# direcotry for the example bboxes*  
+|
+|--rename_resize/  *# rename and resize Image file 
 
 Environment
 ----------
@@ -40,3 +42,12 @@ Usage
   - To delete all existing bounding boxes in the image, simply click `ClearAll`.
 3. After finishing one image, click `Next` to advance. Likewise, click `Prev` to reverse. Or, input an image id and click `Go` to navigate to the speficied image.
   - Be sure to click `Next` after finishing a image, or the result won't be saved. 
+
+Usage resize_convert
+-------
+BBox tool's picture ext is "*.JPEG". But some jpeg file's ext is "*.jpg" "*.jpeg" "*.jpe". And, deeplearning framework has image sizes limit.
+
+0. To check framework's image sizes limit.
+1. Resize class's first argument is width, second argument is height.
+2. Default resize size is 256 * 256. If you need it, you need to change
+3. When you run this python file need 2 argument. 1st argument is path to image file. 2nd argument is path to output folder.
